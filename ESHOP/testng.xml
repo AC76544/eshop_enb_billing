@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     
+      <class name="Regression.TC001_CreateHSI_leased_LC"/>  
+   <class name="Regression.TC002_CreateHSI_Leased_LQ"/> 
+     <class name="Regression.TC003_CreateHSIplusPOTS_Leased_LC"/> 
+     <class name="Regression.TC004_CreateHSIplusPOTS_Leased_LQ"/> 
+     <class name="Regression.TC005_CreatePOTS_P4L_LQ"/> 
+      <class name="Regression.TC006_CreateHSI_Purchesed_LQ"/> 
+     <class name="Regression.TC007_CreateHSI_Purchesed_LC"/> 
+     <class name="Regression.TC008_CreatePOTS_P4L_LC"/> 
+      <class name="Regression.TC010_CreateHSIplusPOTS_Purchesed_LQ"/> 
+     <class name="Regression.TC009_CreateHSIplusPOTS_Purchesed_LC"/> 
+     <class name="Regression.TC011_CreatePOTS_1Pty_LC"/> 
+       
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

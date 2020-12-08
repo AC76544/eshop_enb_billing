@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Regression.TC005_CreatePOTS_P4L_LQ">
+        <methods>
+          <include name="LaunchingAccount"/>
+          <include name="CreateHSI_Leased_LQ"/>
+        </methods>
+      </class> <!-- Regression.TC005_CreatePOTS_P4L_LQ -->
+      <class name="Regression.TC009_CreateHSIplusPOTS_Purchesed_LC">
+        <methods>
+          <include name="LaunchingAccount"/>
+          <include name="CreateHSIplusPOTS_Purchesed_LC"/>
+        </methods>
+      </class> <!-- Regression.TC009_CreateHSIplusPOTS_Purchesed_LC -->
+      <class name="Regression.TC011_CreatePOTS_1Pty_LC">
+        <methods>
+          <include name="CreatePOTS_1Pty_LC"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC011_CreatePOTS_1Pty_LC -->
+      <class name="Regression.TC006_CreateHSI_Purchesed_LQ">
+        <methods>
+          <include name="CreateHSI_leased_LC"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC006_CreateHSI_Purchesed_LQ -->
+      <class name="Regression.TC001_CreateHSI_leased_LC">
+        <methods>
+          <include name="CreateHSI_leased_LC"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC001_CreateHSI_leased_LC -->
+      <class name="Regression.TC002_CreateHSI_Leased_LQ">
+        <methods>
+          <include name="CreateHSI_Leased_LQ"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC002_CreateHSI_Leased_LQ -->
+      <class name="Regression.TC008_CreatePOTS_P4L_LC">
+        <methods>
+          <include name="CreateHSI_Leased_LQ"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC008_CreatePOTS_P4L_LC -->
+      <class name="Regression.TC003_CreateHSIplusPOTS_Leased_LC">
+        <methods>
+          <include name="CreateHSI_Leased_LQ"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC003_CreateHSIplusPOTS_Leased_LC -->
+      <class name="Regression.TC010_CreateHSIplusPOTS_Purchesed_LQ">
+        <methods>
+          <include name="CreateHSIplusPOTS_Purchesed_LQ"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC010_CreateHSIplusPOTS_Purchesed_LQ -->
+      <class name="Regression.TC004_CreateHSIplusPOTS_Leased_LQ">
+        <methods>
+          <include name="CreateHSI_Leased_LQ"/>
+          <include name="LaunchingAccount"/>
+        </methods>
+      </class> <!-- Regression.TC004_CreateHSIplusPOTS_Leased_LQ -->
+      <class name="Regression.TC007_CreateHSI_Purchesed_LC">
+        <methods>
+          <include name="LaunchingAccount"/>
+          <include name="CreateHSI_leased_LC"/>
+        </methods>
+      </class> <!-- Regression.TC007_CreateHSI_Purchesed_LC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
